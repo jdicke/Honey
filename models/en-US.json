@@ -1,0 +1,84 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "honey",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": ["I'm okay",
+                      "I'm fine",
+                      "Fine",
+                      "I feel okay",
+                      "I'm good",
+                      "Done",
+                      "Better",
+                      "Thank you",
+                      "I feel better",
+                      "I'm better"]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": ["I'm okay",
+                      "I feel okay",
+                      "I'm fine",
+                      "Fine",
+                      "I'm good",
+                      "Done",
+                      "Better",
+                      "Thank you",
+                      "I feel better",
+                      "I'm better"]
+        },
+        {
+          "name": "YesINeed",
+          "samples": [
+            "yes",
+            "yeah",
+            "please",
+            "ya"
+          ]
+        },
+        {
+          "name":"Settings",
+          "samples": [
+            "settings",
+            "routine",
+            "change routine",
+            "routine change",
+            "change settings",
+            "alter routine",
+            "alter"
+          ]
+
+        },
+        {
+          "name":"NoNeed",
+          "samples": [
+            "no",
+            "no thank you",
+            "nah"
+          ]
+
+        },
+        {
+          "name": "APICallIntent",
+          "samples": [
+            "where is dad",
+            "where is mom",
+            "where is caregiver",
+            "caregiver",
+            "need help",
+            "help me",
+            "help",
+            "tell me where dad is",
+            "tell me where mom is"
+          ]
+        }
+      ]
+    }
+  }
+}
